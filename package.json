@@ -1,0 +1,25 @@
+{
+  "name": "quiggle_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jake-the-cake/quiggle_js.git"
+  },
+  "keywords": [],
+  "author": "Jason Thompson",
+  "license": "ISC",
+  "type":"module",
+  "bugs": {
+    "url": "https://github.com/jake-the-cake/quiggle_js/issues"
+  },
+  "homepage": "https://github.com/jake-the-cake/quiggle_js#readme",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
