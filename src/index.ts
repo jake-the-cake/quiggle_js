@@ -1,7 +1,11 @@
-import value from "./api/index.js"
+import { useApiRequest } from "./api/index.js"
 
-const hey = 'Hello';
+const hey = 'Hello'
 
-(window as any).hey = hey
-console.log(value)
-export default hey
+function x(data: any) {
+    console.log(data)
+}
+
+const variable = useApiRequest(x)
+
+export default variable
