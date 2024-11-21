@@ -6,6 +6,7 @@ function x(data: any) {
     console.log(data)
 }
 
-const variable = useApiRequest(x)
+const variable = 'Test variable'
+useApiRequest(x)
 
 export default variable
